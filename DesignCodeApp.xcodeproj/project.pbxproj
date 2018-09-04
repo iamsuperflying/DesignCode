@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC69DE73213CF7A000E47603 /* SectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC69DE72213CF7A000E47603 /* SectionViewController.swift */; };
+		DCC42482213E41B300010398 /* Data.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC42481213E41B300010398 /* Data.swift */; };
+		DCC42484213E421C00010398 /* SectionsCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCC42483213E421C00010398 /* SectionsCollectionViewCell.swift */; };
 		DCF577D9213A35C700533C43 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF577D8213A35C700533C43 /* AppDelegate.swift */; };
 		DCF577DB213A35C700533C43 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCF577DA213A35C700533C43 /* ViewController.swift */; };
 		DCF577DE213A35C700533C43 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DCF577DC213A35C700533C43 /* Main.storyboard */; };
@@ -16,6 +19,9 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC69DE72213CF7A000E47603 /* SectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionViewController.swift; sourceTree = "<group>"; };
+		DCC42481213E41B300010398 /* Data.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Data.swift; sourceTree = "<group>"; };
+		DCC42483213E421C00010398 /* SectionsCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SectionsCollectionViewCell.swift; sourceTree = "<group>"; };
 		DCF577D5213A35C700533C43 /* DesignCodeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DesignCodeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCF577D8213A35C700533C43 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		DCF577DA213A35C700533C43 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -57,7 +63,10 @@
 			isa = PBXGroup;
 			children = (
 				DCF577D8213A35C700533C43 /* AppDelegate.swift */,
+				DCC42481213E41B300010398 /* Data.swift */,
 				DCF577DA213A35C700533C43 /* ViewController.swift */,
+				DC69DE72213CF7A000E47603 /* SectionViewController.swift */,
+				DCC42483213E421C00010398 /* SectionsCollectionViewCell.swift */,
 				DCF577DC213A35C700533C43 /* Main.storyboard */,
 				DCF577E2213A35C800533C43 /* Assets.xcassets */,
 				DCF577E4213A35C800533C43 /* LaunchScreen.storyboard */,
@@ -139,7 +148,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				DCF577DB213A35C700533C43 /* ViewController.swift in Sources */,
+				DCC42482213E41B300010398 /* Data.swift in Sources */,
 				DCF577D9213A35C700533C43 /* AppDelegate.swift in Sources */,
+				DC69DE73213CF7A000E47603 /* SectionViewController.swift in Sources */,
+				DCC42484213E421C00010398 /* SectionsCollectionViewCell.swift in Sources */,
 				DCF577E1213A35C700533C43 /* DesignCodeApp.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
